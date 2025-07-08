@@ -2,7 +2,7 @@ import { Leaf, TreePalm, Flower } from "lucide-react";
 
 const About = () => {
   return (
-    <section className="py-20 bg-background">
+    <section id="about" className="py-20 bg-background">
       <div className="max-w-6xl mx-auto px-6">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Content */}

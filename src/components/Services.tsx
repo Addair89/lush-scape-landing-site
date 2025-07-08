@@ -24,8 +24,20 @@ const Services = () => {
   ];
 
   return (
-    <section id="services" className="py-20 bg-muted/30">
-      <div className="max-w-6xl mx-auto px-6">
+    <section id="services" className="relative py-20 overflow-hidden">
+      {/* Parallax Background */}
+      <div 
+        className="absolute inset-0 bg-cover bg-center bg-fixed opacity-20"
+        style={{ 
+          backgroundImage: 'url(https://images.unsplash.com/photo-1518495973542-4542c06a5843?w=1920&h=1080&fit=crop)'
+        }}
+      />
+      
+      {/* Overlay */}
+      <div className="absolute inset-0 bg-background/80" />
+      
+      {/* Content */}
+      <div className="relative z-10 max-w-6xl mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
             Our Services
