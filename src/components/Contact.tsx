@@ -4,7 +4,7 @@ import { Textarea } from "@/components/ui/textarea";
 
 const Contact = () => {
   return (
-    <section className="py-20 bg-gradient-nature text-primary-foreground">
+    <section id="contact" className="py-20 bg-gradient-nature text-primary-foreground">
       <div className="max-w-6xl mx-auto px-6">
         <div className="grid lg:grid-cols-2 gap-12">
           {/* Contact Info */}
